@@ -71,13 +71,15 @@ img {
   font-weight: normal;
 }
 
-.site-promo-button {
+.go-to-services {
+  display: inline-block;
   background: #00BAFC;
   color: #fff;
   width: 232px;
   padding: 8px 16px;
   border: none;
   border-radius: 5px;
+  text-decoration: none;
   font-style: normal;
   font-weight: bold;
 }
@@ -201,6 +203,8 @@ img {
 }
 
 .services-footer-button {
+  display: block;
+  text-decoration: none;
   width: 167px;
   margin-right: 16px;
   padding: 8px 16px;
@@ -357,16 +361,8 @@ img {
   border-radius: 5px;
   width: 167px;
   background-color: #00BAFC;
+  color: #fff;
 }
-
-
-
-
-
-
-
-
-
 
 
 
