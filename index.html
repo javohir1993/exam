@@ -4,17 +4,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Exam Pixer</title>
-  <link rel="stylesheet" href="css/normalize.css">
-  <!-- <link rel="stylesheet" href="css/styles.min.css"> -->
+  <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+  <link rel="stylesheet" href="css/styles.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+  <!-- <link rel="stylesheet" href="css/styles.css"> -->
 </head>
 <body>
 
+  <!-- SITE HEADER -->
+  <header class="site-header">
+
+    <div class="container">
+      <nav class="sitenav">
+        <a class="sitenav-logo-link" href="index.html">
+          <img class="sitenav-logo-img" src="img/pixer-logo.svg" alt="Pikser saytining logotipi" width="58" height="20">
+        </a>
+
+        <ul class="sitenav-list">
+          <li class="sitenav-item sitenav-item-active">
+            <a class="sitenav-link" href="index.html">Bosh sahifa</a>
+          </li>
+
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="services.html">Xizmatlar</a>
+            <ul class="submenu">
+              <li class="submenu-item">
+                <a class="submenu-link" href="website.html">Vebsayt</a>
+              </li>
+              <li class="submenu-item">
+                <a class="submenu-link" href="telegram-bot.html">Telegram bot</a>
+              </li>
+              <li class="submenu-item">
+                <a class="submenu-link" href="smm.html">SMM</a>
+              </li>
+              <li class="submenu-item">
+                <a class="submenu-link" href="graphic-design.html">Grafik dizayn</a>
+              </li>
+              <li class="submenu-item">
+                <a class="submenu-link" href="crm.html">CRM tizim</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="team.html">Jamoa</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="blog.html">Blog</a>
+          </li>
+          <li class="sitenav-item">
+            <a class="sitenav-link" href="contacts.html">Kontaktlar</a>
+          </li>
+        </ul>
+
+        <a class="sitenav-tel" href="tel:+998909213711">+998 90 921 37 11</a>
+
+      </nav><!-- sitenav -->
+    </div><!-- container -->
+
+  </header><!-- site-header -->
+
+  <!-- SITE PROMO -->
   <div class="container">
 
     <div class="site-promo">
-
       <section class="site-promo-info">
         <h1 class="site-promo-heading">Biznesingizni keyingi bosqichga olib chiqing</h1>
 
@@ -22,16 +78,15 @@
 
         <a class="go-to-services" href="#services">Xizmatlar bilan tanishish</a>
       </section>
-
       <iframe class="youtube-embed" width="458" height="258" src="https://www.youtube.com/embed/6_pru8U2RmM" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div><!-- site-promo -->
 
   </div><!-- container -->
 
+  <!-- SERVICES -->
   <div class="container">
 
     <div class="services" id="services">
-
       <div class="services-heading">
         <h2 class="section-title">Xizmatlar</h2>
 
@@ -39,54 +94,47 @@
       </div><!-- services-heading -->
 
       <ul class="services-list">
-
-        <li class="services-item services-item-website">
+        <li class="services-item">
           <a class="services-link services-website" href="website.html">
             <h3 class="services-name">Vebsayt tuzish</h3>
             <p class="services-info">Lorem ipsum</p>
           </a>
         </li>
-
         <li class="services-item">
           <a class="services-link services-telegram-bot" href="telegram-bot.html">
             <h3 class="services-name">Telegram bot</h3>
             <p class="services-info">Lorem ipsum</p>
           </a>
         </li>
-
         <li class="services-item">
           <a class="services-link services-smm" href="smm.html">
             <h3 class="services-name">SMM</h3>
             <p class="services-info">Lorem ipsum</p>
           </a>
         </li>
-
-        <li class="services-item services-item-graphic-design">
+        <li class="services-item">
           <a class="services-link services-graphic-design" href="graphic-design.html">
             <h3 class="services-name">Grafik dizayn</h3>
             <p class="services-info">Lorem ipsum</p>
           </a>
         </li>
-
         <li class="services-item">
           <a class="services-link services-crm-systems" href="crm.html">
             <h3 class="services-name">CRM tizimlar</h3>
             <p class="services-info">Lorem ipsum</p>
           </a>
         </li>
-
       </ul>
 
       <div class="services-footer">
         <a class="services-footer-button" href="#buyurtma-berish">Buyurtma berish</a>
         <a class="services-footer-link" href="services.html">Xizmatlar sahifasiga o'tish</a>
       </div>
-
     </div><!-- services -->
 
   </div><!-- container -->
 
-
+  <!-- HOW WE WORK -->
   <div class="how-we-work">
 
     <div class="how-we-work-heading">
@@ -95,53 +143,48 @@
     </div><!-- how-we-work-heading -->
 
     <ol class="step-info">
-
       <li class="step-item step-item-requirements">
         <div class="step-item-info">
           <h3 class="step-name">Talablarni aniqlab chiqamiz</h3>
           <p class="step-description">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
         </div>
       </li>
-
       <li class="step-item step-item-solutions">
         <div class="step-item-info">
           <h3 class="step-name">Bir necha yechimlarni taklif qilamiz</h3>
           <p class="step-description">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
         </div>
       </li>
-
       <li class="step-item step-item-time">
         <div class="step-item-info">
           <h3 class="step-name">Loyiha uchun vaqt belgilaymiz</h3>
           <p class="step-description">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
         </div>
       </li>
-
       <li class="step-item step-item-submit">
         <div class="step-item-info">
           <h3 class="step-name">A’lo sifat bilan bajarib topshiramiz</h3>
           <p class="step-description">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
         </div>
       </li>
-
       <li class="step-item step-item-support">
         <div class="step-item-info">
           <h3 class="step-name">Qo’llab-quvvatlab boramiz</h3>
           <p class="step-description">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis</p>
         </div>
       </li>
-
     </ol>
 
     <a class="how-we-work-button-link" href="#buyurtma-berish">Buyurtma berish</a>
 
   </div><!-- how-we-work -->
 
+  <!-- ORDER FORM -->
   <div class="order-form" id="buyurtma-berish">
 
     <div class="order-form-heading">
-      <h2 class="section-title">Buyurtma berish</h2>
-      <p class="section-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
+      <h2 class="section-title order-form-title">Buyurtma berish</h2>
+      <p class="section-text order-form-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar</p>
     </div>
 
     <form class="form-order" action="https://echo.htmlacademy.ru" method="POST">
@@ -149,7 +192,7 @@
       <input class="input" type="tel" name="phone_number" aria-label="telefon raqamingizni kiriting" placeholder="Telefon raqamingiz" required>
 
       <select class="input" name="service_type" aria-label="xizmat turini tanlang">
-        <!-- <option value="service-type">Xizmat turi</option> -->
+        <option value="service-type">Xizmat turi</option>
         <option value="website">Veb sayt tuzish</option>
         <option value="telegram-bot">Telegram bot</option>
         <option value="smm">SMM</option>
@@ -160,7 +203,60 @@
       <button class="order-form-button" type="submit">Buyurtma berish</button>
     </form>
 
-  </div>
+  </div><!-- order-form -->
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+
+    <div class="site-footer-section">
+
+      <section class="site-copy-box">
+        <h3 class="footer-titles">Copyright 2020</h3>
+        <p class="site-copy-text">Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam facilisis lacinia ex, eget sollicitudin massa pellentesque in. Vivamus mattis eros at sem pulvinar tincidunt.</p>
+      </section><!-- site-copy-box -->
+
+      <ul class="site-footer-nav">
+        <li class="site-footer-nav-item">
+          <h3 class="footer-titles">Sayt sahifalari</h3>
+        </li>
+        <li class="site-footer-nav-item">
+          <a class="site-footer-nav-link" href="index.html">Bosh sahifa</a>
+        </li>
+        <li class="site-footer-nav-item">
+          <a class="site-footer-nav-link" href="services.html">Xizmatlar</a>
+        </li>
+        <li class="site-footer-nav-item">
+          <a class="site-footer-nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="site-footer-nav-item">
+          <a class="site-footer-nav-link" href="team.html">Jamoa</a>
+        </li>
+        <li class="site-footer-nav-item">
+          <a class="site-footer-nav-link" href="blog.html">Blog</a>
+        </li>
+        <li class="site-footer-nav-item">
+          <a class="site-footer-nav-link" href="contacts.html">Kontaktlar</a>
+        </li>
+      </ul><!-- site-footer-nav -->
+
+      <ul class="socials">
+        <li class="socials-item">
+          <h3 class="footer-titles">Biz internetda</h3>
+        </li>
+        <li class="socials-item">
+          <a class="socials-link socials-link-telegram" href="#" target="blank">Telegram</a>
+        </li>
+        <li class="socials-item">
+          <a class="socials-link socials-link-facebook" href="#" target="blank">Facebook</a>
+        </li>
+        <li class="socials-item">
+          <a class="socials-link socials-link-instagram" href="#" target="blank">Instagram</a>
+        </li>
+      </ul><!-- socials -->
+
+    </div><!-- site-footer-section -->
+
+  </footer><!-- site-footer -->
 
 </body>
 </html>
